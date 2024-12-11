@@ -7,66 +7,69 @@
     <style>
         /* General body styling */
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f4f8;
+            font-family: 'Arial', sans-serif;
+            background-color: #e3f2fd;
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
         }
 
         /* Container styling */
         .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            max-width: 450px;
+            width: 90%;
             text-align: center;
-            background: #ffffff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            max-width: 400px;
-            width: 100%;
         }
 
         /* Title styling */
         h1 {
-            color: #333333;
-            font-size: 24px;
-            margin-bottom: 10px;
+            color: #1565c0;
+            font-size: 26px;
+            margin-bottom: 15px;
         }
 
         /* Paragraph styling */
         p {
-            color: #555555;
+            color: #424242;
             font-size: 16px;
-            line-height: 1.5;
+            line-height: 1.6;
             margin-bottom: 20px;
         }
 
         /* Button styling */
         .btn {
             display: inline-block;
-            padding: 10px 20px;
+            padding: 12px 25px;
             font-size: 16px;
+            font-weight: bold;
             color: #ffffff;
-            background-color: #007bff;
+            background-color: #1e88e5;
             border: none;
-            border-radius: 5px;
-            cursor: pointer;
+            border-radius: 8px;
             text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s;
         }
 
         .btn:hover {
-            background-color: #0056b3;
+            background-color: #1565c0;
+            transform: scale(1.05);
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>GitHub Branches</h1>
-        <p>This is a demo file to learn Git branches in GitHub.</p>
-        <p>Branches in Git allow you to work on different features or fixes separately without affecting the main codebase.</p>
-        <a href="#" class="btn">Learn More</a>
+        <h1>Understanding GitHub Branches</h1>
+        <p>GitHub branches allow developers to work on features, bug fixes, or experiments in isolation from the main project.</p>
+        <p>They empower teams to collaborate effectively and merge changes seamlessly into the main codebase.</p>
+        <a href="https://docs.github.com/en/get-started/quickstart/github-flow" target="_blank" class="btn">Learn More</a>
     </div>
 </body>
 </html>
